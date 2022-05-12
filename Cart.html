@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CssFile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title> Cart </title>
+    <style>
+        nav .navbar-nav li a {
+            color: black !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar  navbar-light navbar-expand-md navbar-inverse " style="	background-color:rgb(211,211,211); ">
+            <a class="navbar-brand" href="HomePage.html"><img src="Logo.png" class="media-object" style="width: 200px" /></a>
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse " id="navbarMenu">
+                <ul class="nav navbar-nav mx-auto ">
+                    <li class="nav-item" style=" padding: 10px;">
+                        <a class="nav-link" href="Profile.html"><b>Profile</b></a>
+                    </li>
+                    <li class="nav-item" style=" padding: 10px;">
+                        <a class="nav-link" href="ViewYourBooks.html"><b>View Your Books</b></a>
+                    </li>
+                    <li class="nav-item" style=" padding: 10px;">
+                        <a class="nav-link" href="Cart.html"><b>Cart</b></a>
+                    </li>
+                </ul>
+                <ul class=" navbar-nav ml-auto">
+                    <li>
+                        <a class="nav-link " href="Login.html"><i class="fa fa-sign-out "><b> Log Out</b></i></a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+    <div style="padding-top:3%;" class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="max-width: 320px;">
+                    <img src="Book1.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title"> Book Name: Dear Tia </h5>
+                        <p class="card-text"> <b> Price: </b> 250 EGP</p>
+                        <p class="card-text"> <b> Location: </b> Nasr City</p>
+                        <a href="#href" class="btn btn-danger" onclick="alert('Item removed Successfully!');"> Remove </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Container text-center" style="padding: 8px">
+        <a href="#href" class="btn btn-warning" style="padding: 10px 150px;text-color:black" onclick="alert('Order Placed Successfully!');"> Place Order </a>
+    </div>
+    <br>
+    <br>
+
+</body></html>
